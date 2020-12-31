@@ -46,6 +46,7 @@ while inputValidation == 0:
                 print("Win")
         
         # input validation handling
+        # if users input any strings other than "Rock", "Paper", or "Scissors", they have to input again
         else:
             inputValidation = 0
             print ("Opps! Invalid option! Pls input again: ")
